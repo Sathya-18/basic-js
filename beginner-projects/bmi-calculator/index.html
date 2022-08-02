@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="box">
+        <h1><b>Body Mass Index Calulator</b></h1>
+        <p>Enter your weight and height below to check your BMI value</p>
+        <form action="" class="input">
+                <input type="number" class="num" id="num1" placeholder="Mass">
+                <select name="mass-unit" id = "mass" class="select" >
+                    <option value="kg">kg</option>
+                    <option value="pounds">pounds</option>
+                </select>
+                <br>
+                <input type="number" class="num" id="num2" placeholder="Height">
+                <select name="height-unit" id = "height" class="select" >
+                    <option value="cm">cm</option>
+                    <option value="inches">inches</option>
+                </select>
+                <br>
+            <input type="button" id="btn" value="Calculate BMI" class="btn">
+        </form>
+        <p class="result" id="result">Your BMI results will appear hear</p>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

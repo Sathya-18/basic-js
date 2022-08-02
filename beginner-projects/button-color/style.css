@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0; 
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.btn{
+    height: 100px;
+    width: 150px;
+    background-color: aqua;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.btn:hover{
+    filter: brightness(90%);
+}
+.btn:active{
+    background-color: rgb(31, 204, 123);
+    color: white;
+}
