@@ -5,7 +5,6 @@ body{
     height: auto;
 }
 .container{
-    margin: 10px;
     background-color: antiquewhite;
     padding: 10px;
     font-family: sans-serif;
@@ -23,7 +22,23 @@ aside ul li a {
     text-decoration: none;
     color: rgb(41, 22, 110);
 }
-img{
+.img{
     float: right;
     
+}
+.table{
+    border: 1px solid black;
+}
+.table caption{
+    border: 1px solid black;
+    font-weight: bold;
+}
+.table tr{
+    border: 1px solid black;
+}
+.table tr th{
+    border: 1px solid black;
+}
+.table tr td{
+    border: 1px solid black;
 }
