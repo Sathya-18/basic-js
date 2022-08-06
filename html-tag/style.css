@@ -4,12 +4,33 @@ body{
     width: auto;
     height: auto;
 }
+.navb{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(214, 151, 114);
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+}
+.btn:hover{
+    filter: brightness(90%);
+}
 .container{
     background-color: antiquewhite;
     padding: 10px;
     font-family: sans-serif;
 }
-aside{
+.aside1{
     float: right;
     height: 300px;
     width : 300px;
@@ -18,7 +39,7 @@ aside{
     display: flex;
     border-radius: 10px;
 }
-aside ul li a {
+.aside1 ol li a {
     text-decoration: none;
     color: rgb(41, 22, 110);
 }
@@ -41,4 +62,30 @@ aside ul li a {
 }
 .table tr td{
     border: 1px solid black;
+}
+.facts{
+    float: right;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+}
+/* .box{
+    right: 0%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+} */
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
