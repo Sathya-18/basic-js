@@ -4,6 +4,10 @@ body{
     width: auto;
     height: auto;
 }
+header{
+    margin-left: 10px;
+    font-family: "Century gothic";
+}
 .navb{
     display: flex;
     justify-content: space-between;
@@ -68,6 +72,7 @@ nav{
     height: 400px;
     width: 300px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 10px;
     background-color: white;
@@ -88,4 +93,48 @@ nav{
     justify-content: space-around;
     align-items: center;
 
+}
+.ex{
+    font-family: sans-serif;
+    text-align: left;
+
+}
+.video{
+    float: right;
+}
+.other{
+    float: right;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+a[target]{
+    background-color: yellow;
+}
+.nf dd::after{
+    content: " ex- Nuclear power plant";
+   
+}
+.nf dd::before{
+    content: "1.";
+}
+#count:disabled{
+    background-color: yellow;
+} 
+header:first-child::first-letter{
+    font-size: 150%;
+    color: aliceblue;
+}
+input:focus{
+    background-color: rgb(231, 231, 84);
+}
+#mail:invalid{
+    border: 2px solid red;
+}
+#comment::placeholder{
+    color: red;
 }

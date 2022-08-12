@@ -8,12 +8,16 @@
     <title>Neuclear physics</title>
     <link rel="stylesheet" href="style.css">
     <!-- <base href="htpps://www.starktech.com/"> -->
+    <!-- <style>
+        h1 {color:red;}
+        p {color:blue;}
+      </style> -->
 </head>
 
 <body>
     <section class="navb">
         <header>
-            <h1>Stark Tech.</h1>
+            <h1>Stark Tech<span style="color:yellow;font-weight: bold;">.</span></h1>
         </header>
         <nav class="nav">
             <p>Study about physics</p>
@@ -32,9 +36,9 @@
             </article>
             <aside class="aside1">
                 <ol>
-                    <li><a href="#"><em>Experimental Nuclear physics</em></a></li>
-                    <li><a href="#"><em>Nuclear astro physics</em></a></li>
-                    <li><a href="#"><em>Theoritical Nuclear physics</em></a></li>
+                    <li><a href="#" target="_blank"><em>Experimental Nuclear physics</em></a></li>
+                    <li><a href="#" target="_blank"><em>Nuclear astro physics</em></a></li>
+                    <li><a href="#" target="_blank"><em>Theoritical Nuclear physics</em></a></li>
                 </ol>
             </aside>
             <article>
@@ -97,7 +101,7 @@
         </details>
         <br>
 
-        <dl>
+        <dl class="nf">
             <dt>
                 <h4>Nuclear-fusion</h4>
             </dt>
@@ -106,7 +110,7 @@
             <dt>
                 <h4>Nuclear-fission</h4>
             </dt>
-            <dd>Nuclear-fission is the splitting of an atom into two or more smaller ones</dd>
+            <dd>Nuclear-fission is the splitting of an atom into two or more smaller ones.</dd>
         </dl>
         <br>
         <table class="table">
@@ -153,7 +157,12 @@
                 now operate in many parts of the world for the production of electricity. Another method for obtaining
                 nuclear energy, controlled nuclear fusion, holds promise but has not been perfected by 2020. Nuclear
                 energy has been released explosively by both nuclear fusion and nuclear fission. See also nuclear power.
+                Radioactive metals example- U<sub>235</sub>.
             </p>
+            <p>The <time datetime="1986-04-26 01:23">Chernobyl disaster</time> was a nuclear accident that occurred on
+                26 April 1986, <time>1:23:58 a.m</time> at the No. 4 reactor in the
+                Chernobyl Nuclear Power Plant, near the city of Pripyat in the north of the Ukrainian SSR in the Soviet
+                Union.</p>
         </article>
         <div class="flex">
             <figure class="figure">
@@ -171,13 +180,48 @@
             </div>
         </div>
         <br>
-        <!-- <fieldset>
-            <span>fieldset</span>
-        </fieldset>
-        <fieldset>
-            <span>fieldset</span>
-        </fieldset> -->
+        <aside class="video">
+            <video src="https://www.youtube.com/watch?v=zYR0umFsGEY&feature=youtu.be" width="400px" height="300px"
+                controls></video>
+        </aside>
+        <br>
+        <pre class="ex">
+            <b>Example 1:</b>
+            
+            Consider a radioactive material which is undergoing fusion and resulting in a mass defect of 2 kg. 
+            Calculate the amount of energy released from the material.
+            
+            <b>Solution:</b>
+            
+            Mass defect, <var>m</var> = 2 <var>kg</var>
+            
+            Velocity of light, <var>c</var> = 3 х 108 <var>m/s</var>
+            
+            Using Einstein’s equation,
+            
+            E = mc<sup>2</sup>
+            
+            E = 2 х (3 х 108)<sup>2</sup>
+            
+            E = 1.8 х 1017 J
+        </pre>
+        <aside class="other">
+            <p>If your windows displaying -<br> <samp>windows not working<br>click F2 to continue BIOS</samp></p>
+
+            <label for="">Click here to solve :</label>
+            <button>click</button>
+        </aside>
+        <br>
+        <p>Albert Einstein once said,<q><small>Nuclear power is one hell of a way to boil water.</small></q></p>
+        <br>
+        <label for="file">Downloading progress:</label>
+        <progress id="file" value="0.32"> 32% </progress>
+        <br>
+        <p><s>only 5 seats left for this course</s></p>
+        <p><samp>only 2 seats left for this course</samp></p>
+        
         <aside class="box">
+
             <form action="">
                 <fieldset>
                     <legend>
@@ -187,10 +231,12 @@
                     <input type="text" id="name1"><br><br>
                     <label for="num">Mobile :</label>
                     <input type="text" id="num"><br><br>
+                    <label for="count">Country :</label>
+                    <input type="text" id="count" value="India" disabled = "disabled"><br><br>
                     <label for="city">City :</label>
                     <input type="text" id="city"><br><br>
                     <label for="mail">E-mail :</label>
-                    <input type="email"><br><br>
+                    <input type="email" id="mail"><br><br>
                     <label for="cars">Choose a course:</label>
                     <select name="course" id="cars">
                         <optgroup label="Physics">
@@ -202,6 +248,10 @@
                             <option value="nuclear reactors">nuclear reactors</option>
                         </optgroup>
                     </select>
+                    <br>
+                    <p><label for="comment">Comment :</label></p>
+                    <textarea name="comment" id="comment" cols="30" rows="5"
+                        placeholder="Tell something about us..."></textarea>
                     <br><br>
                     <input type="submit" value="Submit">
                 </fieldset>
@@ -212,7 +262,7 @@
         <br>
 
         <footer>
-            <a href=""><button title="click to go top">Click</button></a>
+            <a href="#"><button title="click to go top">Click</button></a>
             <address dir="rtl">
                 article written by <a href="mailto:sathya@gmail.com">sathya</a>
                 <br>
