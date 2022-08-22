@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    color: gainsboro;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: gainsboro;
+}
+label{
+    width: 70px;
+    display: inline-block;
+    line-height: 30px;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.div{
+    margin-right: 80px;
+    background-color: #e63f68;
+    height: 580px;
+    padding-top: 20px;
+    width: 250px;
+    text-align: center;
+}

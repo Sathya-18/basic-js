@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0%;
+}
+form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(240, 233, 173);
+    margin: auto;
+    padding: 20px 10px;
+    height: auto;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    width: 100px;
+    display: inline-block;
+    line-height: 30px;  
+    font-size: 18px;
+    /* text-align: right; */
+}
+
+textarea{
+    vertical-align: top;
+}

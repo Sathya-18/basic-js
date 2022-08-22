@@ -1,0 +1,110 @@
+.div1 {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    text-transform: justify;
+    text-indent: 20px;
+    font-style: oblique;
+    color: teal;
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: overline;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 5px red;
+    color: rgb(24, 95, 56);
+    font-weight: bold;
+}
+
+.p1 {
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: teal;
+    text-decoration-style: solid;
+    text-transform: lowercase;
+    font-variant: normal;
+    color: #ff6347;
+}
+
+.p2 {
+    text-align: right;
+    text-decoration: line-through;
+    text-decoration-style: double;
+    text-transform: uppercase;
+}
+
+.p3 {
+    text-align-last: center;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    line-height: 20px;
+    /* word-spacing: 20px; */
+    color: hsl(147, 50%, 47%);
+}
+
+#main {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    padding: 10px;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    /* display: flex; */
+    /* display: none; */
+    /* display: block;  */
+    /* display: contents; */
+}
+
+#main div {
+    /* width: 50px; */
+    height: 50px;
+    border: 2px solid black;
+}
+ul{
+   display: block;
+}
+li{
+    display: inline;
+    color: blue;
+}
+.li3{
+    display: inherit;
+}
+/* .li3{
+    display: initial;
+} */
+.clr span{
+    display: list-item;
+}
+.block span{
+    background-color: skyblue;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    /* display: block; */
+    display: inline-block;
+    /* display: initial; */
+}
+.block span{
+    display: initial;
+}
+.container{
+    height: 250px;
+    padding: 10px;
+    background-color: antiquewhite;
+    display: inline-flex;
+    /* display: flex; */
+    /* display: grid; */
+    /* display: inline-grid; */
+    /* grid-template-columns: auto auto auto; */
+}
+.container p{
+    border: 1px solid red;
+    width: 100px;
+}
+
+
