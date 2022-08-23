@@ -25,7 +25,7 @@ blurr.addEventListener("change", ()=>{
 });
 
 brightness.addEventListener("change", ()=>{
-    img.style.filter = "brightness(0.4)";
+    img.style.filter = "brightness(0.8)";
 })
 
 contrast.addEventListener("change", ()=>{
@@ -33,11 +33,11 @@ contrast.addEventListener("change", ()=>{
 })
 
 gray.addEventListener("change", ()=>{
-    img.style.filter = "grayscale(1.2)";
+    img.style.filter = "grayscale(40%)";
 })
 
 hue.addEventListener("change", ()=>{
-    img.style.filter = "hue-rotate(120deg)";
+    img.style.filter = "hue-rotate(180deg)";
 })
 
 invert.addEventListener("change", ()=>{
@@ -45,7 +45,7 @@ invert.addEventListener("change", ()=>{
 })
 
 opacity.addEventListener("change", ()=>{
-    img.style.filter = "opacity(30%)";
+    img.style.filter = "opacity(90%)";
 })
 
 saturate.addEventListener("change", ()=>{
