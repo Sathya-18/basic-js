@@ -1,8 +1,8 @@
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
 let color = ['red', 'yellow', 'green', 'brown']
-btn1.i = 0;
-btn2.i = 0;
+// btn1.i = 0;
+// btn2.i = 0;
 
 function action() {
     btn1.i = 0;

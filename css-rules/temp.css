@@ -1,0 +1,18 @@
+@font-face {
+    font-family: newfont;
+    src: url(./font/AgentOrange.ttf);
+    /* src: url(./font/AlexBrush-Regular.ttf);
+    src: url(./font/DancingScript-Regular.ttf); */
+}
+.text{
+    font-family: newfont;
+    color: rgb(117, 109, 109);
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgb(223, 223, 121);
+}
+p{
+    background-color: rgb(175, 219, 88) !important;
+}

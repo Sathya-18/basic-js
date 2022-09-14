@@ -1,0 +1,89 @@
+/* @media screen and (orientation: landscape) {
+    body {
+      content: "Landscape";
+      background-color: greenyellow;
+    }
+  }
+  
+  @media screen and (orientation: portrait) {
+    body {
+      content: "Portrait";
+      background-color: aqua;
+    }
+  } */
+  
+  @media only screen and (min-width: 600px) {
+    body {
+      /* content: "Portrait"; */
+      background-color: orangered;
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    body {
+      /* content: "Portrait"; */
+      background-color: yellow;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    body {
+      /* content: "Portrait"; */
+      background-color: aqua;
+    }
+  }
+  
+
+  
+  
+  body {
+    margin: 20px;
+    /* height: 100vh;
+    width: 100vw; */
+    font-size: 25px;
+    padding: 50px;
+    text-align: justify;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f3f0f0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+    @media screen and (max-width: 800px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: teal;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 30px;
+}

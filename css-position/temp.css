@@ -1,0 +1,17 @@
+.container{
+    position: relative;
+}
+
+.box1{
+    position: absolute;
+}
+
+.box2{
+    /* position: absolute; */
+
+}
+
+.box3{
+    /* position: absolute;
+    left: 200px;  */
+}
